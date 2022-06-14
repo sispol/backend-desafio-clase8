@@ -11,7 +11,7 @@ app.use('/', rutas)
 
 app.listen(puerto,(e)=> {
     if(e) {
-        console.log(`Error!!! Puerto ${puerto} posiblemente en uso`)    
+        console.log(`Error!!! Puerto ${puerto} en uso ?`)    
     }else{      
         console.log(`Servidor escuchando en puerto ${puerto}`)
     }
